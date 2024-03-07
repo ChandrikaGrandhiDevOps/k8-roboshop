@@ -7,5 +7,5 @@ metadata:
 spec:
   containers:
   - name:  debug
-    image: grandhichandrika123/debug:v1
+    image: chandrikagrandhi123/debug:v1
     command: ["slepp", "100000"]
