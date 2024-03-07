@@ -1,4 +1,4 @@
-apiVersion: v3
+apiVersion: v1
 kind: Pod
 metadata:
   name: debug
@@ -7,5 +7,5 @@ metadata:
 spec:
   containers:
   - name:  debug
-    image: chandrikagrandhi123/debug:v3
+    image: chandrikagrandhi123/debug:v1
     command: ["slepp", "100000"]
